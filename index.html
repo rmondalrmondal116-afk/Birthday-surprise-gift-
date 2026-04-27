@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey to Dum Dum Junction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="setup-screen">
+        <p class="instr">Step 1: Get the Remote</p>
+        <div class="rem-body">
+            <button id="rem-btn"></button>
+        </div>
+        <p style="color:white; font-size:12px;">PRESS THE RED BUTTON</p>
+    </div>
+
+    <div id="station-scene" class="hidden">
+        <div class="sky">
+            <div class="cld cld1">☁️</div><div class="cld cld2">☁️</div><div class="cld cld3">☁️</div>
+            <div class="brd">🐦</div>
+        </div>
+        <div class="signboard">DUM DUM JUNCTION<br>(Dum Dum Station)</div>
+        <div class="trees-row">🌲 🌳 🌴</div>
+        <div class="tracks-map"></div>
+        <div id="train-comp">
+            <div id="eng">🚂</div><div id="gift-b">🎁</div>
+        </div>
+        <p class="instr active-instr">A Special Journey Has Started... 🛤️</p>
+    </div>
+
+    <div id="gift-scene" class="hidden">
+        <p class="instr active-instr" id="gift-instr">Step 2: Open the Gift Box 🎁 (Tap it)</p>
+        <div id="cake-container" class="hidden">
+            <img src="https://i.ibb.co/mS7S6S8/cake.png" id="real-cake">
+            <div id="candles">
+                <div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div><div class="can">🕯️</div>
+            </div>
+            <p class="instr active-instr" id="cake-instr">Step 3: Make a Wish & Blow the Candles! (Tap them)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
